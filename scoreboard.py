@@ -1,3 +1,6 @@
+# Author: Rosalba Monterrosas
+# Description: Initializes the scoreboard.
+
 import pygame.font
 from pygame.sprite import Group
 

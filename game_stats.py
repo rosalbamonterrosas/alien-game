@@ -1,12 +1,15 @@
+# Author: Rosalba Monterrosas
+# Description: Initializes the statistics of the game (scores, level, and ship left)..
+
 class GameStats():
-	"""Track statistics for Alien Invasion."""
+	"""Track statistics for the game."""
 
 	def __init__(self, ai_settings):
 		"""Initialize statistics."""
 		self.ai_settings = ai_settings
 		self.reset_stats()
 
-		# Start Alien Invasion in an inactive state.
+		# Start the game in an inactive state.
 		self.game_active = False
 
 		# High score should never be reset.

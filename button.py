@@ -1,3 +1,6 @@
+# Author: Rosalba Monterrosas
+# Description: Initializes the play button.
+
 import pygame.font
 
 class Button():

@@ -2,7 +2,7 @@
 # Description: Contains the game settings.
 
 class Settings():
-	"""A class to store all settings for Alien Invasion."""
+	"""A class to store all settings for the game."""
 	def __init__(self):
 		"""Initialize the game's static settings."""
 		# Screen settings
@@ -14,7 +14,7 @@ class Settings():
 		self.ship_limit = 3
 
 		# Bullet settings
-		self.bullet_width = 600
+		self.bullet_width = 3
 		self.bullet_height = 15
 		self.bullet_color = 148, 0, 211
 		self.bullets_allowed = 3
